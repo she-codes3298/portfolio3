@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Magra:wght@400;700&display=swap" rel="stylesheet">
+     <script src="https://cdn.tailwindcss.com"></script>
+
+  <script>
+        module.exports = {
+  theme: {
+    extend: {
+      fontFamily: {
+        magra: ['Magra', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    
+  
+
+<style>
+ 
+</style>
+
+</head>
+<body class="font-[Magra] bg-[#000000] text-white">
+
+<!-- Main Section -->
+<section class="relative w-full min-h-screen bg-black text-white font-[Magra] overflow-hidden">
+
+  <!-- Header Navbar -->
+  <div class="flex justify-between items-center px-12 py-8">
+    <div class="text-2xl font-bold">Marcus Thompson</div>
+    <div class="hidden md:flex gap-8 text-xl">
+      <a href="#" class="hover:text-[#30DE5A] transition">About</a>
+      <a href="#" class="hover:text-[#30DE5A] transition">Skills</a>
+      <a href="#" class="hover:text-[#30DE5A] transition">Experience</a>
+      <a href="#" class="hover:text-[#30DE5A] transition">Projects</a>
+      <a href="#" class="hover:text-[#30DE5A] transition">Education</a>
+    </div>
+    <button class="text-white text-2xl px-6 py-3 rounded-[10px] bg-gradient-to-r from-[#30DE5A] to-[#1A7831] hover:from-[#1A7831] hover:to-[#30DE5A] transition duration-300 shadow-lg">
+      Explore
+    </button>
+  </div>
+
+  <!-- Main Hero Content -->
+  <div class="flex flex-col-reverse lg:flex-row justify-between items-center px-14 pt-12  gap-12">
+    
+    <!-- Left Content -->
+    <div class="lg:w-1/2 ">
+      <p class="text-6xl lg:text-8xl font-bold leading-tight">
+        <span class="text-[#30DE5A]">Marcus</span> Thompson
+      </p>
+      <p class="text-3xl lg:text-6xl pb-16 font-semibold text-white/90">Full-Stack Developer</p>
+      <p class="text-4xl text-white/70 max-w-xl">Your next unicorn startup is just one commit away</p>
+      <div class="flex items-center gap-4 pt-4">
+        <button class="text-white text-2xl px-6 py-3 rounded-[10px] bg-gradient-to-r from-[#30DE5A] to-[#1A7831] hover:from-[#1A7831] hover:to-[#30DE5A] transition duration-300 shadow-lg">
+          Download CV
+        </button>
+        <a href="#"><img src="asset/downlode.png" alt="Download Icon" class="w-8 h-8"></a>
+      </div>
+    </div>
+
+    <!-- Right: Polygon + Profile Image -->
+    <div class="lg:w-1/2 flex justify-center items-center relative">
+      <!-- Polygon Background -->
+      <img src="asset/polygon.png" alt="Polygon" class="w-[350px] sm:w-[400px] lg:w-[500px]">
+
+      <!-- Profile Image Positioned at Center -->
+      <img src="asset/profile4.png"
+           alt="Profile"
+           class="absolute w-[220px] sm:w-[260px] lg:w-[600px] top-[150px] left-[490px] transform -translate-x-1/2 -translate-y-1/2 z-10">
+    </div>
+  </div>
+
+  <!-- Bottom Full-Width Vector -->
+  <img src="asset/Vector4.png" alt="Vector" class="absolute bottom-0 left-0 w-full z-0 pointer-events-none">
+</section>
+
+
+
+<section class="relative w-full bg-black  px-32 py-20">
+
+  <div class="flex flex-col lg:flex-row items-start gap-12 max-w-8xl mx-auto">
+    
+    <!-- Left: Background Image -->
+    <div class="relative w-full lg:w-[40%]">
+      <img src="asset/bg_image4.png" alt="Background" class="w-full max-h-[900px] object-cover  shadow-xl">
+    </div>
+
+    <!-- Right: About Me Content -->
+    <div class="relative w-full lg:w-[60%] relative top-[170px] right-[150px]">
+      
+      <!-- "About Me" Title Floating -->
+      <p class="text-7xl font-bold pb-12 text-[#30DE5A]">About<span class="text-white"> Me</span></p>
+
+      <!-- White Card -->
+      <div class="bg-white text-black  shadow-2xl p-8 mt-[-30px] relative z-10">
+        
+        <!-- Description -->
+        <p class="text-xl leading-relaxed mb-6">
+          Clean code, killer performance, zero compromises. I build software that doesn't just work—it dominates. From startups to Fortune 500s, I architect solutions that scale from zero to millions of users without breaking a sweat.
+        </p>
+
+        <!-- Stats -->
+        <div class="space-y-6">
+          <!-- Stat Row -->
+          <div class="flex items-center justify-between">
+            <span class="w-56 text-gray-800 font-medium">6+ years building at scale</span>
+            <div class="flex-1 ml-4 bg-gray-300 rounded-full h-2">
+              <div class="bg-gradient-to-r from-gray-800 to-green-500 h-2 rounded-full" style="width: 85%"></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <span class="w-56 text-gray-800 font-medium">150+ Apps in production</span>
+            <div class="flex-1 ml-4 bg-gray-300 rounded-full h-2">
+              <div class="bg-gradient-to-r from-gray-800 to-green-500 h-2 rounded-full" style="width: 90%"></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <span class="w-56 text-gray-800 font-medium">5M+ Users served daily</span>
+            <div class="flex-1 ml-4 bg-gray-300 rounded-full h-2">
+              <div class="bg-gradient-to-r from-gray-800 to-green-500 h-2 rounded-full" style="width: 95%"></div>
+            </div>
+          </div>
+
+          <div class="flex items-center justify-between">
+            <span class="w-56 text-gray-800 font-medium">99.8% Uptime</span>
+            <div class="flex-1 ml-4 bg-gray-300 rounded-full h-2">
+              <div class="bg-gradient-to-r from-gray-800 to-green-500 h-2 rounded-full" style="width: 99.8%"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Social Icons -->
+        <div class="flex gap-4 pt-8">
+          <div class="w-12 h-12 rounded-full bg-white border-2 border-[#30DE5A] flex items-center justify-center shadow-md">
+            <a href="#"><img src="asset/twitter4.png" alt="twitter" class="w-6 h-6" /></a>
+          </div>
+          <div class="w-12 h-12 rounded-full bg-white  border-2 border-[#30DE5A] flex items-center justify-center shadow-md">
+            <a href="#"><img src="asset/linkedin4.png" alt="linkedin" class="w-6 h-6" /></a>
+          </div>
+          <div class="w-12 h-12 rounded-full bg-white border-2 border-[#30DE5A] flex items-center justify-center shadow-md">
+            <a href="#"><img src="asset/insta4.png" alt="insta" class="w-6 h-6" /></a>
+          </div>
+        </div>
+        
+
+      </div>
+      
+    </div>
+    <div class="w-30 h-30">
+     <img src="asset/bg_vector.png" class="w-20 h-20">
+     </div>
+  </div>
+</section>
+
+<section class="relative w-full p-16 overflow-hidden bg-[url('asset/square.png')] bg-cover bg-center">
+
+
+  <p class="font-bold text-7xl pb-12">EXPERIENCE AND <span class="text-[#30DE5A]">SKILL</span></p>
+  <div class="flex justify-between gap-6">
+      <div class=" inline-block border-2 border-[#30DE5A] p-8">
+          <p class="text-[#30DE5A] text-sm">2015-16 Senior-Software Eng.</p>
+          <p class="text-2xl text-white font-bold">NETFLIX</p>
+          <P class="max-w-sm text-lg text-white">Leading backend architecture for streaming platform serving 260M+ global subscribers</P>
+      </div>
+       <div class=" inline-block border-2 border-[#30DE5A] p-8">
+          <p class="text-[#30DE5A] text-sm">2015-16 Senior-Software Eng.</p>
+          <p class="text-2xl text-white font-bold">NETFLIX</p>
+          <P class="max-w-sm text-lg text-white">Leading backend architecture for streaming platform serving 260M+ global subscribers</P>
+      </div>
+       <div class=" inline-block border-2 border-[#30DE5A] p-8">
+          <p class="text-[#30DE5A] text-sm">2015-16 Senior-Software Eng.</p>
+          <p class="text-2xl text-white font-bold">NETFLIX</p>
+          <P class="max-w-sm text-lg text-white">Leading backend architecture for streaming platform serving 260M+ global subscribers</P>
+      </div>
+  </div>
+  
+
+ <div class="grid grid-cols-1 md:grid-cols-2 gap-10  mx-auto pt-20">
+
+  <!-- Skill Item -->
+  <div>
+    <div class="flex justify-between mb-2">
+      <div class="text-white text-2xl">Frontend</div>
+      <div class="text-white text-xl">85%</div>
+    </div>
+    <div class="bg-gray-300 rounded-full h-2">
+      <div class="bg-[#30DE5A] h-2 rounded-full" style="width: 85%"></div>
+    </div>
+  </div>
+
+  <!-- Skill Item -->
+  <div>
+    <div class="flex justify-between mb-2">
+      <div class="text-white text-2xl">Backend</div>
+      <div class="text-white text-xl">90%</div>
+    </div>
+    <div class="bg-gray-300 rounded-full h-2">
+      <div class="bg-[#30DE5A] h-2 rounded-full" style="width: 90%"></div>
+    </div>
+  </div>
+
+  <!-- Skill Item -->
+  <div>
+    <div class="flex justify-between mb-2">
+      <div class="text-white text-2xl">UI/UX</div>
+      <div class="text-white text-xl">75%</div>
+    </div>
+    <div class="bg-gray-300 rounded-full h-2">
+      <div class="bg-[#30DE5A] h-2 rounded-full" style="width: 75%"></div>
+    </div>
+  </div>
+
+  <!-- Skill Item -->
+  <div>
+    <div class="flex justify-between mb-2">
+      <div class="text-white text-2xl">DevOps</div>
+      <div class="text-white text-xl">80%</div>
+    </div>
+    <div class="bg-gray-300 rounded-full h-2">
+      <div class="bg-[#30DE5A] h-2 rounded-full" style="width: 80%"></div>
+    </div>
+  </div>
+
+</div>
+<section class="relative w-full p-16 overflow-hidden bg-[url('asset/square2.png')] bg-cover bg-center text-white">
+
+  <!-- Section Heading -->
+  <p class="font-bold text-7xl text-center pb-12 leading-tight tracking-tight">
+    LET'S <span class="text-[#30DE5A]">DIVE</span> INTO THE <span class="text-[#30DE5A]">PROJECTS</span>
+  </p>
+
+  <!-- Main Content -->
+  <div class="flex flex-col lg:flex-row items-center justify-between gap-12">
+
+    <!-- Left Text -->
+    <div class="max-w-xl text-xl leading-relaxed px-4 lg:px-0">
+      <p>
+        Every project tells a story of <span class="text-[#30DE5A] font-semibold">problem-solving</span>, 
+        <span class="text-[#30DE5A] font-semibold">creativity</span>, and 
+        <span class="text-[#30DE5A] font-semibold">user-centered design</span>. Here’s a collection of my recent work where I’ve transformed complex challenges into intuitive digital experiences.
+      </p>
+    </div>
+
+    <!-- Right Images with Names -->
+    <div class="relative flex justify-center items-end gap-10 text-center">
+
+      <!-- Left Project -->
+      <div class="flex flex-col items-center -mt-10">
+        <img src="asset/project_left.png" 
+             class="w-64 h-96 rounded-xl shadow-[0_0_50px_#30DE5A] hover:scale-105 transition duration-300 ease-in-out" />
+        <p class="mt-4 text-2xl font-semibold text-[#30DE5A]">EcoTracker</p>
+      </div>
+
+      <!-- Middle Project -->
+      <div class="flex flex-col items-center z-10">
+        <img src="asset/project_mid.png" 
+             class="w-72 h-[28rem] rounded-xl shadow-[0_0_60px_#30DE5A] hover:scale-110 transition duration-300 ease-in-out" />
+        <p class="mt-4 text-2xl font-semibold text-[#30DE5A]">CryptoWatch</p>
+      </div>
+
+      <!-- Right Project -->
+      <div class="flex flex-col items-center -mt-10">
+        <img src="asset/project_right.png" 
+             class="w-64 h-96 rounded-xl shadow-[0_0_50px_#30DE5A] hover:scale-105 transition duration-300 ease-in-out" />
+        <p class="mt-4 text-2xl font-semibold text-[#30DE5A]">TaskFlow</p>
+      </div>
+
+      <!-- Glowing Background Circle -->
+      <div class="absolute bottom-8 w-72 h-[28rem] bg-[#30DE5A] opacity-20 rounded-full blur-3xl z-0"></div>
+
+    </div>
+
+  </div>
+
+</section>
+
+
+
+
+
+
+
+<section class="relative w-full p-16 overflow-hidden ">
+<p class="font-bold text-7xl pb-12">EDUCATION</p>
+<img src="asset/education.png" class="translate-y-[-60px] max-w-7xl">
+ <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+  <div>
+    <img src="asset/logo1.png" class="relative top-[-200px] left-[190px] w-20 h-20">
+    <!-- Card 1 -->
+    <div class=" relative top-[-40px]  border-2 border-[#30DE5A] p-8 rounded-xl bg-black/50">
+      
+      <p class="text-3xl text-white font-bold">Name of University</p>
+      <p class="max-w-sm text-xl text-white">Schooling</p>
+       <p class="text-[#30DE5A] text-xl">2009-2015</p>
+    </div>
+    </div>
+
+
+    <div>
+      <img src="asset/logo2.png " class="w-20 h-20 relative top-[-400px] left-[180px]">
+    <!-- Card 2 -->
+    <div class="relative top-[-250px] left-[50px] border-2 border-[#30DE5A] p-8 rounded-xl bg-black/50">
+      <p class="text-3xl text-white font-bold">Name of University</p>
+      <p class="max-w-sm text-xl text-white">Schooling</p>
+       <p class="text-[#30DE5A] text-xl">2009-2015</p>
+    </div>
+    </div>
+
+    <div>
+      <img src="asset/logo3.png" class="w-20 h-20 relative top-[-730px] left-[10px]">
+    <!-- Card 3 -->
+    <div class="relative top-[-600px] right-[30px] border-2 border-[#30DE5A] p-8 rounded-xl bg-black/50">
+      <p class="text-3xl text-white font-bold">Name of University</p>
+      <p class="max-w-sm text-xl text-white">Schooling</p>
+       <p class="text-[#30DE5A] text-xl">2009-2015</p>
+    </div>
+    </div>
+  </div>
+</section>
+
+<!-- Section 7: Contact / Collaboration -->
+<section class="relative w-full p-20 overflow-hidden text-white">
+  <!-- Heading -->
+  <p class="text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-bold  mb-2 text-center">
+    Let's Build Something Epic
+  </p>
+  <p class="text-center text-xl lg:text-2xl text-[#30DE5A] mb-12">
+    Ready to turn your crazy ideas into scalable reality? Let,s chat.
+  </p>
+
+  <!-- Form Container -->
+  <form class="max-w-6xl mx-auto space-y-8">
+    
+    <!-- Full Name -->
+    <input
+      type="text"
+      placeholder="Full Name"
+      class="bg-black border-2 border-[#30DE5A] p-6 rounded-3xl text-2xl w-full placeholder-white focus:outline-none focus:ring-2 focus:ring-[#2B597C]"
+      required
+    />
+   <div class="flex gap-10">
+    <!-- Email ID -->
+    <input
+      type="email"
+      placeholder="Email ID"
+      class="bg-black border-2 border-[#30DE5A] p-6 rounded-3xl text-2xl w-full placeholder-white focus:outline-none focus:ring-2 focus:ring-[#2B597C]"
+      required
+    />
+
+    <!-- Company URL -->
+    <input
+      type="url"
+      placeholder="Company URL"
+      class="bg-black border-2 border-[#30DE5A] p-6 rounded-3xl text-2xl w-full placeholder-white focus:outline-none focus:ring-2 focus:ring-[#2B597C]"
+    />
+    </div>
+
+    <!-- Your Message -->
+    <textarea
+      placeholder="Your Message"
+      rows="6"
+      class="bg-black border-2 border-[#30DE5A] p-6 rounded-3xl text-2xl w-full placeholder-white resize-none focus:outline-none focus:ring-2 focus:ring-[#2B597C]"
+      required
+    ></textarea>
+
+    <!-- Send Button -->
+    <div class="flex justify-end mt-10">
+      <button
+        type="submit"
+        class="inline-block border-2 border-white/30 bg-[#30DE5A] text-white px-6 py-3 rounded-[14px] text-4xl font-markazi cursor-pointer hover:bg-[#26475A] transition duration-300"
+      >
+        Send
+      </button>
+    </div>
+  </form>
+</section>
+
+
+
+
+</body>
+</html>
